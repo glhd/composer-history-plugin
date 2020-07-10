@@ -1,0 +1,20 @@
+{
+	"name": "glhd/composer-history",
+	"type": "composer-plugin",
+	"require": {
+		"php": ">=7.3",
+		"composer-plugin-api": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Glhd\\ComposerHistory\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"class": "Glhd\\ComposerHistory\\Plugin"
+	},
+	"require-dev": {
+		"composer/composer": "^1.10"
+	}
+}
