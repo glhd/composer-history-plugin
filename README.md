@@ -4,8 +4,7 @@ Quickly see the composer commands you've run on your current git branch.
 
 Any time you run:
 
- - `composer require` 
- - `composer install` 
+ - `composer require`  
  - `composer update` 
  - `composer remove`
  
@@ -21,7 +20,7 @@ not affect any other changes that happened upstream.
 ## Usage
 
 ```shell script
-$ composer install internachi/modular
+$ composer require internachi/modular
 Loading composer repositories with package information
 Updating dependencies (including require-dev)
 ...
@@ -33,13 +32,13 @@ $ composer show-history
 
 Command history for feature/history-demo
 
-[2020-07-10 10:00:00] composer install internachi/modular
+[2020-07-10 10:00:00] composer require internachi/modular
 [2020-07-10 10:01:00] composer update laravel/framework
 
 $ composer show-history --executable
 
 Command history for feature/history-demo
 
-composer install internachi/modular \
+composer require internachi/modular \
   && composer update laravel/framework
 ```

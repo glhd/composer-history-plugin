@@ -9,8 +9,7 @@ class LogEvent
 	use InteractsWithGit;
 	
 	protected const OBSERVED_COMMANDS = [
-		'require', 
-		'install', 
+		'require',
 		'update', 
 		'remove'
 	];
