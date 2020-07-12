@@ -1,5 +1,7 @@
 # Composer History
 
+[![Latest Stable Version](https://poser.pugx.org/glhd/composer-history/v)](https://packagist.org/packages/glhd/composer-history) [![Total Downloads](https://poser.pugx.org/glhd/composer-history/downloads)](https://packagist.org/packages/glhd/composer-history) [![Latest Unstable Version](https://poser.pugx.org/glhd/composer-history/v/unstable)](https://packagist.org/packages/glhd/composer-history) [![License](https://poser.pugx.org/glhd/composer-history/license)](https://packagist.org/packages/glhd/composer-history)
+
 Quickly see the composer commands you've run on your current git branch.
 
 Any time you run:
